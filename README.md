@@ -37,40 +37,24 @@ Criaçao das Tabelas:
 	);
 Inserção dos Valores:
 
-	/*insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id)
-	values ('geladeira', 80, 50, 0, 3000, 1);
-	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id)
-	values ('televisao', 150, 80, 0, 5000, 2);
-	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id)
-	values ('ar condicionado', 100, 75, 0, 2500, 3);
-	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id)
-	values ('cama', 500, 150, 0, 800, 4);
-	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id)
-	values ('mesa', 20, 15, 0, 850, 5);
-	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id)
-	values ('sofa', 50, 25, 0, 500, 6);
+	/*insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id) values ('geladeira', 80, 50, 0, 3000, 1);
+	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id) values ('televisao', 150, 80, 0, 5000, 2);
+	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id) values ('ar condicionado', 100, 75, 0, 2500, 3);
+	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id) values ('cama', 500, 150, 0, 800, 4);
+	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id) values ('mesa', 20, 15, 0, 850, 5);
+	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id) values ('sofa', 50, 25, 0, 500, 6);
 
-	insert into marcas(mrc_nome, mrc_nacionalidade)
-	values ('sansung', 'china');
-	insert into marcas(mrc_nome, mrc_nacionalidade)
-	values ('Samsung', 'china');
-	insert into marcas(mrc_nome, mrc_nacionalidade)
-	values ('lg', 'eua');
-	insert into marcas(mrc_nome, mrc_nacionalidade)
-	values ('zezinho', 'brasileira');
-	insert into marcas(mrc_nome, mrc_nacionalidade)
-	values ('zezinho', 'brasileira');
-	insert into marcas(mrc_nome, mrc_nacionalidade)
-	values ('sorocaba moveis', 'brasileira');
+	insert into marcas(mrc_nome, mrc_nacionalidade) values ('sansung', 'china');
+	insert into marcas(mrc_nome, mrc_nacionalidade) values ('Samsung', 'china');
+	insert into marcas(mrc_nome, mrc_nacionalidade) values ('lg', 'eua');
+	insert into marcas(mrc_nome, mrc_nacionalidade) values ('zezinho', 'brasileira');
+	insert into marcas(mrc_nome, mrc_nacionalidade) values ('zezinho', 'brasileira');
+	insert into marcas(mrc_nome, mrc_nacionalidade) values ('sorocaba moveis', 'brasileira');
 
-	insert into fornecedores (frn_nome, frn_email)
-	values ('Casas Bahia', 'casbahia@gmail.com');
-	insert into fornecedores (frn_nome, frn_email)
-	values ('Magazine Luiza', 'magazineluiza@gmail.com');
-	insert into fornecedores (frn_nome, frn_email)
-	values ('Americanas', 'americanas@gmail.com');
-	insert into fornecedores (frn_nome, frn_email)
-	values ('polishop', 'polishop@gmail.com');*/
+	insert into fornecedores (frn_nome, frn_email) values ('Casas Bahia', 'casbahia@gmail.com');
+	insert into fornecedores (frn_nome, frn_email) values ('Magazine Luiza', 'magazineluiza@gmail.com');
+	insert into fornecedores (frn_nome, frn_email) values ('Americanas', 'americanas@gmail.com');
+	insert into fornecedores (frn_nome, frn_email) values ('polishop', 'polishop@gmail.com');*/
 Crie uma view que mostra todos os produtos e suas respectivas marcas:
 
 	/*create view TodosProdutos_Marcas as
@@ -118,10 +102,8 @@ Adicione o campo data de validade. Insira novos produtos com essa informação:
 	add prd_data_validade date;
 
 
-	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_data_frabricacao, prd_perecivel, prd_valor, prd_marca_id, prd_data_validade)
-	values ('Danone', 20, 12, '2023-09-02', 1, 5.50, 1, '202-10-29');
-	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_data_frabricacao, prd_perecivel, prd_valor, prd_marca_id, prd_data_validade)
-	values ('Yakut', 200, 1, '2023-09-15', 1, 6.99, 2, '2024-10-15');*/
+	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_data_frabricacao, prd_perecivel, prd_valor, prd_marca_id, prd_data_validade) values ('panela', 50, 25, '2023-10-16', 0, 100.50, 1, '2023-10-20');
+	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_data_frabricacao, prd_perecivel, prd_valor, prd_marca_id, prd_data_validade) values ('liquidificador', 100, 50, '2023-05-19', 0, 80.99, 2, '2023-10-26');*/
 
 Selecionar os produtos com preço acima da média:
 
