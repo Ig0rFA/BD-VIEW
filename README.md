@@ -35,9 +35,9 @@ Criaçao das Tabelas:
 
 	primary key (pf_prod_id, pf_forn_id)
 	);
-/*Inserção dos Valores*/
+Inserção dos Valores:
 
-	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id)
+	/*insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id)
 	values ('geladeira', 80, 50, 0, 3000, 1);
 	insert into produtos (prd_nome, prd_qt_estoque, prd_estoque_mim, prd_perecivel, prd_valor, prd_marca_id)
 	values ('televisao', 150, 80, 0, 5000, 2);
@@ -70,7 +70,7 @@ Criaçao das Tabelas:
 	insert into fornecedores (frn_nome, frn_email)
 	values ('Americanas', 'americanas@gmail.com');
 	insert into fornecedores (frn_nome, frn_email)
-	values ('polishop', 'polishop@gmail.com');
+	values ('polishop', 'polishop@gmail.com');*/
 /*Crie uma view que mostra todos os produtos e suas respectivas marcas;*/
 
 	create view TodosProdutos_Marcas as
